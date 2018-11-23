@@ -1,0 +1,12 @@
+/* CSS Document */
+html:first-child #flash_06{
+	height: 95px;
+	width: 130px;
+	float: right;
+	z-index: 2;
+	left: 0px;
+	top: 0px;
+	position: relative;
+}
+
+

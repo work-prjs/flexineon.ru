@@ -1,0 +1,45 @@
+/* FormProcessor stylesheet */
+.stdFormsTable {background: none repeat scroll 0 0 #282828; font-size:16px; }
+.stdFormsTable td {padding:5px; text-align:left; }
+
+.stdFormsTitle {  color:#F6581C; }
+.stdFormsReqTitle {  color:#F6581C; }
+.stdFormsReqStar {  color:red; }
+.stdFormsLayoutTitle {  color:#F6581C; }
+.stdFormsCheckBoxTitle  { color:#F6581C; }
+.stdFormsRadioTitle  { color:#F6581C; }
+.stdFormsError {  color:#aa1020; }
+.stdFormsComment {  color:#555555; }
+.stdFormsButton,
+.stdFormsSubmitButton {   background: none repeat scroll 0 0 #FF9B00!important;
+    border: 1px solid;
+    color: #FFFFFF;   box-shadow: 0 0 7px #FEB650; /*height:27px;*/ }
+
+
+
+.stdFormsText {  color:#ccc; }
+.stdFormsFatalError { color:#ff0000; }
+.stdFormsGroupTbl { border:2px solid #f0f0f0; }
+.stdFormsGroupTitleCell { color:#FFF; text-align:center; background-color:#282828; }
+.stdFormsOuterTable { margin-top: 15px; }
+.stdFormsOuterTableHeaderCell {  text-align:center; color:white; background-color:#282828;  font-size:19px; }
+.stdFormsOuterTableContentCell { background-color:#282828; }
+
+/* MY STYLE */
+.group_option {
+	font-weight: bold;
+}
+
+.user_option {
+	font-style: italic;
+}
+ 
+	
+.stdFormsTable input, .stdFormsTable select,.stdFormsTable tbutton,.stdFormsTable textarea 
+{   background: none repeat scroll 0 0 #282828;
+    border: 1px solid #787878;
+    box-shadow: 0 0 4px #FEB650;
+    color: #FFFFFF;
+    margin: 4px; 
+    padding: 4px;  }
+ .stdFormsTable textarea  {width:400px!important;}

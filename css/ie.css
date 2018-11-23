@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix {
+	zoom:1;
+}
+.msie8 body {
+	background-position: center 389px;
+}
+.msie7 body {
+	background-position: center 384px;
+	padding-top: 60px;
+}
+.msie7 footer .footer-data .copy p, .msie8 footer .footer-data .copy p {
+	margin-top: 6px;
+} 
+.msie7 .news .news-block, .msie7 nav.main-nav ul .sub ul, .catalog .item-preview, .color-mode ul li {
+	float: left;
+}
+.msie7 .top-header-data {
+	left: 0;
+}
+.msie7 nav.main-nav {
+	position: relative;
+	z-index: 2;
+}
+
+.msie7 .catalog .item-preview, .msie8 .catalog .item-preview {
+	background: #030303;
+}
+.msie7 .catalog .sub-item-data, .msie8 .catalog .sub-item-data {
+	background: #030303 !important;
+	top: 200px;
+}
+
+
+.msie7 .basket-table table td.row-1, .msie8 .basket-table table td.row-1 {
+  width: 1%;
+  text-align: center;
+}
+.msie7 .basket-table table td.row-2, .msie8 .basket-table table td.row-2 {
+  width: 25%;
+}
+.msie7 .basket-table table td.row-3, .msie8 .basket-table table td.row-3 {
+  width: 10%;
+  text-align: center;
+}
+.msie7 .basket-table table td.row-4, .msie8 .basket-table table td.row-4 {
+  width: 15%;
+  text-align: center;
+}
+.msie7 .basket-table table td.row-5, .msie8 .basket-table table td.row-5 {
+  width: 15%;
+  text-align: center;
+}
+.msie7 .basket-table table td.row-6, .msie8 .basket-table table td.row-6 {
+  width: 15%;
+  text-align: center;
+}
+.msie7 .basket-table table td.row-7, .msie8 .basket-table table td.row-7 {
+  width: 5%;
+}
+
+.msie7 .basket-table .table-info .recount,.msie8 .basket-table .table-info .recount {
+	right: 20px;
+	padding-left: 35px;
+}
+.msie7 .basket-table-header .hide-table {
+	float: right;
+	margin: -30px 0 0 0;
+}

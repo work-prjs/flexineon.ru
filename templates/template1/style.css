@@ -1,0 +1,369 @@
+/* CSS Document */
+/* global reset*/
+*	{
+	margin: 0;
+	padding: 0;
+}
+li {
+	margin: 0px 0px 0px 25px;
+}
+img {
+	border: none;
+}
+/* global fonts style*/
+body{
+	background: #000000 url(/img/bodyBack_01.jpg) no-repeat center 322px;
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: #b08f7f;
+}
+p{
+	margin-bottom: 5px;
+}
+.current, .page_link{
+margin: 0 5px;
+font-size: 12px;
+}
+.cat{
+    font: 13px Tahoma, Arial, Helvetica, sans-serif;
+	color: #b08f7f;
+}
+.cat ul {
+    padding: 10px;
+}
+.cat li {
+    padding-bottom: 4px;
+}
+.cat_table td {
+    border: 1px dotted #B2832B;
+    padding: 3px;
+}
+.cat h1 {
+    color: #B2832B;
+}
+.headertable{
+
+}
+.goup_path {
+    padding: 10px;
+}
+/*H*/
+h1{
+    color: #B2832B;
+}
+h2{
+}
+h3{
+}
+h4{
+}
+h5{
+}
+/*links*/
+a{
+	color: #b2832b;
+}
+a:link {
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: underline;
+}
+
+.link1{
+	height: 18px;
+	float: left;
+	background: #290f01 url(/img/linkBack_01.gif) no-repeat left top;
+	padding: 0px 0px 0px 10px;
+	display: block;
+}
+	.link1 a{
+		background: url(/img/linkBack_02.gif) no-repeat right top;
+		display: block;
+		height: 16px;
+		float: left;
+		padding-right: 10px;
+		padding-left: 0px;
+		text-align: center;
+		padding-top: 2px;
+	}
+
+/*float*/
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+.clearBoth{
+	clear: both;
+}
+/*layout*/
+#global{
+	width: 1000px;
+	margin: auto;
+}
+	/*header*/
+	#header{
+		height: 170px;
+	}
+		ul#topMenu{
+			padding: 84px 0px 0px 32px;
+			width: 86px;
+			float: left;
+		}
+			ul#topMenu li{
+				float: left;
+				margin: 0px 7px 0px 0px;
+				list-style: none;
+			}
+				ul#Menu a{
+				}
+		#flash_01{
+			height: 170px;
+			width: 660px;
+			float: left;
+		}
+		#adressBox{
+			float: right;
+			margin: 40px 31px 0px 0px;
+		}
+	/*globalMenu*/
+	ul#globalMenu{
+		padding: 6px 0px 0px 30px;
+		height: 24px;
+	}
+		ul#globalMenu li {
+			float: left;
+			margin: 0px;
+			list-style: none;
+			padding: 0px 22px 0px 0px;
+
+		}
+			ul#globalMenu a{
+			}
+				ul#globalMenu a:hover{
+				}
+#flash_02 {
+    height: 449px;
+    width: 1000px;
+    background: url(/swf/flash_02.jpg) no-repeat;
+    
+}
+	#contentBox{
+
+	}
+		/*contentLeft*/
+		#contentLeft {
+			width: 300px;
+			float: left;
+			padding: 0px 0px 0px 10px;
+		}
+			dl.dl_01{
+				background: #1E0B01;
+				height: 110px;
+				margin: 0px 0px 10px;
+			}
+				.dl_01 dt{
+					padding: 20px 0px 0px 20px;
+					float: left;
+				}
+					.dl_01 dt img{
+						margin: 0px 0px 6px;
+					}
+					.dl_01 dt a{
+					}
+				.dl_01 dd{
+					display: block;
+					height: 110px;
+					width: 120px;
+					float: right;
+				}
+			#box_01{
+				padding-left: 20px;
+			}
+
+				ul#catalog{
+					line-height: 31px;
+					font-size: 12px;
+					padding: 10px 0px 0px;
+				}
+					ul#catalog li{
+						background: url(/img/arrow_01.gif) no-repeat left 15px;
+						margin: 0px;
+						list-style: none;
+						padding: 0px 0px 0px 15px;
+					}
+		/*contentRight*/
+		#contentRight{
+			float: right;
+			width: 640px;
+			padding: 10px 10px 0px 0px;
+		}
+		#img_01{
+			margin: 0px 0px 30px;
+		}
+			#flash_06{
+				height: 95px;
+				width: 130px;
+				float: right;
+				z-index: 2;
+				left: 0px;
+				top: -35px;
+				position: relative;
+				margin-bottom: -90px;
+			}
+
+				dl.dl_02{
+					font-size: 11px;
+					zoom: 1;
+overflow:hidden;
+text-align:justify;
+					padding: 10px 0 0px 0px;
+				}
+					.dl_02 dt{
+						width: 60px;
+						background: url(/img/back_01.gif) no-repeat;
+						float: left;
+						height: 63px;
+						text-align: center;
+						font-size: 10px;
+						margin: 0px 10px 0px 0px;
+					}
+						.dl_02 dt span{
+							color: #e93700;
+							font-size: 28px;
+						}
+					.dl_02 dd{
+						color: #b2832b;
+						padding: 0px 0px 0px 81px;
+font-size:12px;
+					}
+						.dl_02 dd a{
+							color: #b08f7f;
+text-decoration: none;
+						}
+						.dl_02 dd a:hover{
+							color: #b08f7f;
+text-decoration:underline;
+						}
+				dl.dl_03{
+					width: 318px;
+					float: left;
+					padding: 16px 0px 0px;
+				}
+				 .v1{
+					width: 302px !important;
+					margin: 0px 15px 0px 0px;
+				}
+					.dl_03 dt{
+						float: left;
+						padding: 35px 0px 0px;
+width: 178px
+					}
+						.dl_03 dt img{
+							margin: 0px 0px 7px;
+						}
+						.dl_03 dd{
+							height: 120px;
+							width: 124px;
+							display: block;
+							float: right;
+						}
+				#showcase{
+					clear: both;
+					padding: 28px 0px 0px;
+				}
+					dl.dl_04{
+						width: 317px;
+						float: left;
+					}
+						.dl_04 dt{
+							width: 180px;
+							display: block;
+							float: left;
+							padding-bottom: 30px;
+						}
+							.dl_04 dt img{
+								border: 2px solid #281604;
+							}
+						.dl_04 dd{
+							width: 135px;
+							display: block;
+							float: left;
+							padding-bottom: 30px;
+						}
+
+							.dl_04 dd span{
+								display: block;
+								background: #290E00;
+								padding: 3px 10px;
+								font-size: 10px;
+								color: #e93700;
+								float: left;
+							}
+								.dl_04 dd span strong{
+									font-size: 28px;
+									font-weight: normal;
+								}
+							.dl_04 dd p{
+								padding: 10px 10px 5px;
+								clear: both;
+							}
+
+/*footer*/
+#footer{
+	clear: both;
+	height: 193px;
+	background: url(/img/footerBack_01.jpg) no-repeat center top;
+}
+	#footerBox_01{
+		width: 1000px;
+		margin: auto;
+	}
+		#footerBox_02{
+			padding-left: 340px;
+			padding-top: 60px;
+		}
+			ul#bottomMenu{
+				display: block;
+				overflow: hidden;
+				width: 100%;
+				height: 40px;
+			}
+				#bottomMenu li{
+					float: left;
+					margin: 0px 0px 0px -1px;
+					list-style: none;
+					padding: 0px 10px;
+					border-left: 1px solid #B2832B;
+				}
+					#bottomMenu a{
+					}
+						#bottomMenu a:hover{
+						}
+			#counters{
+				padding-left: 10px;
+			}
+				#counters img{
+					margin-right: 25px;
+				}
+#tooltip{
+background:#FFFFFF;
+border:1px solid #666666;
+color:#333333;
+font:menu;
+margin:0px;
+padding:3px 5px;
+position:absolute;
+visibility:hidden;
+}
+
+
+
+
